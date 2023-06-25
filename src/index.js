@@ -1,17 +1,14 @@
-import header from './header.js';
+import { renderHeader } from './header.js';
+import { renderNav } from './nav.js';
+import { tabMenu, tabLocal, tabContact } from './main.js';
 import { renderFooter } from './footer.js';
 
-
 const content = document.getElementById('content');
-const maker12 = document.createElement('p');
-maker12.innerHTML = 'Okok';
-content.appendChild(maker12);
 
-header();
-
-
-console.log('Yes, it is working 3!');
-
-
-
+renderHeader(content);
+renderNav(content);
 renderFooter(content);
+
+btn1.addEventListener("click", () => tabMenu());
+btn2.addEventListener("click", () => tabContact());
+btn3.addEventListener("click", () => tabLocal());
