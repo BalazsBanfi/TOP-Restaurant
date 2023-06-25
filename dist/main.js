@@ -1,1 +1,1 @@
-console.log("Yes, it is working 2!");
+(()=>{"use strict";function o(){console.log("header loaded first!")}console.log("Yes, it is working 2!"),o(),console.log("Yes, it is working 3!"),o()})();
