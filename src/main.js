@@ -1,12 +1,11 @@
 export function tabMenu() {
-    main.innerHTML = 'Menu';
+  main.innerHTML = "Menu";
 }
 
-
 export function tabContact() {
-    main.innerHTML = 'Contact';
+  main.innerHTML = "Contact";
 }
 
 export function tabLocal() {
-    main.innerHTML = 'Localization';
+  main.innerHTML = "Localization";
 }
