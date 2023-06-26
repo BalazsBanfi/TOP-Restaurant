@@ -1,5 +1,8 @@
-export function tabMenu() {
-  main.innerHTML = "Menu";
+export function tabMenu(content) {
+    main.innerHTML = "";
+    const myIcon = new Image();
+    myIcon.src = Icon;
+    content.appendChild(myIcon);
 }
 
 export function tabContact() {
