@@ -1,8 +1,9 @@
+import menuImg from './pizzaMenu.png';
 export function tabMenu(content) {
     main.innerHTML = "";
-    const myIcon = new Image();
-    myIcon.src = Icon;
-    content.appendChild(myIcon);
+    const menuPage = new Image();
+    menuPage.src = menuImg;
+    main.appendChild(menuPage);
 }
 
 export function tabContact() {
