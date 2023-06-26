@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
   background-color: var(--contentBg);
   display: grid;
-  grid-template: 100px 60px 1fr 60px / 1fr;
+  grid-template: 100px 60px 1fr 40px / 1fr;
   align-items: center;
   justify-items: center;
 }
@@ -58,7 +58,7 @@ body {
 *********/
 
 .nav {
-  width: 100%;
+  width: 97%;
   height: 100%;
   background-color: var(--bodyBg);
   display: flex;
@@ -85,4 +85,15 @@ body {
 
 .nav button:active {
   transform: translateY(3px);
+}
+
+
+/*********
+***Main***
+**********/
+
+main {
+    width: 97%;
+    height: 95%;
+    background-color: var(--bodyBg);
 }
