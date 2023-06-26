@@ -1,0 +1,45 @@
+/*****************
+***Root section***
+******************/
+
+:root {
+    --bodyBg: #FFB100;
+    --contentBg: #F0ECCF;
+    --navBg: #A3BB98;
+    --fontColor: #FBC252;
+    --white: #ffffff;
+    --padS: 0.5rem;
+    --padM: 1rem;
+    --padL: 1.5rem;
+    --padXL: 2rem;
+  }
+  
+  * {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: var(--fontColor);
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: var(--bodyBg);
+    display: grid;
+    place-items: center;
+  }
+  
+
+
+/************
+***Content***
+************/
