@@ -7,6 +7,7 @@
   --contentBg: #f0eccf;
   --navBg: #a3bb98;
   --fontColor: #fbc252;
+  --fontColor2: #227722;
   --btnColor: #333333;
   --white: #ffffff;
   --padS: 0.5rem;
@@ -16,7 +17,6 @@
 }
 
 * {
-  border: 1px solid red;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
   background-color: var(--contentBg);
   display: grid;
-  grid-template: 100px 60px 1fr 40px / 1fr;
+  grid-template: 100px 75px 1fr 40px / 1fr;
   align-items: center;
   justify-items: center;
 }
@@ -65,7 +65,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  border-radius: 5px;
 }
 
 .nav button {
@@ -95,10 +94,9 @@ body {
 **********/
 
 main {
-  padding: var(--padM);
-  border-radius: 5px;
+  padding: 0 var(--padM);
   width: 97%;
-  min-height: 95%;
+  min-height: 100%;
   background-color: var(--bodyBg);
   display: flex;
   flex-direction: column;
@@ -107,6 +105,16 @@ main {
 }
 
 img {
+  margin: 10px;
   border-radius: 5px;
-  max-width: 75%;
+  max-width: 70%;
+}
+
+
+.divMain2 {
+  color: var(--fontColor2);
+}
+
+.divMain2 > h1 {
+  margin-bottom: 10px;
 }
